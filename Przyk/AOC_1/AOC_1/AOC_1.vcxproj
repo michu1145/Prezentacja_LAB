@@ -115,9 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\Kasztelan\Desktop\algorytmy.h" />
     <ClInclude Include="Frequency.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Kasztelan\Desktop\wektory.cpp" />
     <ClCompile Include="Frequency.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>

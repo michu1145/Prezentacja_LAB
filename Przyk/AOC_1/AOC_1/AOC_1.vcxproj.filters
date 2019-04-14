@@ -18,12 +18,18 @@
     <ClInclude Include="Frequency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\Kasztelan\Desktop\algorytmy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Frequency.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kasztelan\Desktop\wektory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
