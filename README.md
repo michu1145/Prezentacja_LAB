@@ -17,6 +17,7 @@ Zadanie 3.
 Posiadasz urządzenie, które nadaje częstotliwość z stacji radiowych. Nadaje ono częstotliwość z określoną zależnością Twoim zadaniem jest pierwsze znalezienie PODWÓJNEGO pojawienia się liczby.Częstotliwości jako liczby dodają się do siebie.
  Przykładowo: +1,-1 -> pierwsze znalezienie 0. 
   +3,+3,+4,-2,-4 -> pierwsze znalezienie 10
+  
   //ZALECANE STOSOWANIE RELEASE , zadanie posiada testy jednostkowe! 
 Dla utworzonej klasy Frequency napisać ciała następujących metod:
 SavetoVector(string namefile) -> Otworzy plik do odczytu, a następnie używając getline() wpisze do wektora zawartość pliku “input.txt”
