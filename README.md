@@ -20,7 +20,9 @@ Posiadasz urządzenie, które nadaje częstotliwość z stacji radiowych. Nadaje
 
  Przykładowo: +1,-1 -> pierwsze znalezienie 0. 
   +3,+3,+4,-2,-4 -> pierwsze znalezienie 10
+  
 Opis przykładu +3,+3,+4,-2,-4:
+
 3 + 3 = 6 ( pierwsze wystąpienie 6)
 6 + 4 = 10 (pierwsze wystąpienie 10)
 10 + (-2) = 8 (pierwsze wystapienie 8)
@@ -32,9 +34,12 @@ Od tego momentu częstotliwości się powtarzają:
   //ZALECANE STOSOWANIE RELEASE , zadanie posiada testy jednostkowe!
   
 Dla utworzonej klasy Frequency napisać ciała następujących metod:
-void SavetoVector(string namefile) -> Otworzy plik do odczytu, a następnie używając getline() wpisze do wektora givenvalue zawartość pliku “input.txt”
- int PuzzleSolver()->Uzupełni funkcje sprawdzającą częstotliwość o dwa fory wykorzystujące iteratory oraz  odpowiednią operację na iteratorach
- void Find() -> Wyszuka w całym wektorze repeated, czy wynikowa liczba się tam znajduję i wpiszę na jej pozycję wartość 20. W innym przypadku określi  za pomocą metody distance() odległość pomiędzy pierwszą, a ostatnią liczbą w wektorze.
+
+a) void SavetoVector(string namefile) -> Otworzy plik do odczytu, a następnie używając getline() wpisze do wektora givenvalue zawartość pliku “input.txt”
+
+ b) int PuzzleSolver()->Uzupełni funkcje sprawdzającą częstotliwość o dwa fory wykorzystujące iteratory oraz  odpowiednią operację na iteratorach
+ 
+ c) void Find() -> Wyszuka w całym wektorze repeated, czy wynikowa liczba się tam znajduję i wpiszę na jej pozycję wartość 20. W innym przypadku określi  za pomocą metody distance() odległość pomiędzy pierwszą, a ostatnią liczbą w wektorze.
 Dane znajdują się w pliku “input.txt”.
 
 
