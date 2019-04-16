@@ -12,8 +12,6 @@ bool Frequency::SavetoVector(string namefile)
 {
 	file.open(namefile);
 	if (file.is_open()) { //  file found and opened
-		while (getline(file, line))
-			givenvalue.push_back(stoi(line));
 
 		file.close();
 		return true;
@@ -28,13 +26,7 @@ int Frequency::PuzzleSolver()
 		for (it1 = givenvalue.begin(); it1 != givenvalue.end(); ++it1) {
 			temp += *it1;
 			repeated.push_back(temp);
-			for (it2 = repeated.begin(); it2 != repeated.end() - 1; ++it2)
-			{
-				if ((*it2 == temp) || (*it2 == *(it2 + 1)))
-					return temp;
-
-
-			}
+			
 
 		}
 
@@ -49,15 +41,6 @@ int Frequency::getTemp() const
 
 bool Frequency::find()
 {
-	for (auto it = givenvalue.begin(); it != givenvalue.end(); ++it) {
-		if (*it == getTemp()) {
-			*it = 20;
-			return false;
-		}
-		else {
-			distance(givenvalue.begin(), givenvalue.end());
-			return true;
-		}
-	}
+	return true;
 }
 
